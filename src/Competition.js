@@ -50,7 +50,7 @@ class Competition extends Component {
 
         let win = " ";
 
-        if (this.state.item.followers >= this.state.item2.followers) {
+        if (this.state.item.followers >= this.state.item2.followers) { // .length
             win = <h1> Winner is {this.state.userName1} </h1>
         } else if (this.state.item.followers <= this.state.item2.followers) {
             win = <h1> Winner is {this.state.userName2} </h1>
