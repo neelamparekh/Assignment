@@ -3,6 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+//import Await from "./Await";
+//import Age from "./Age";
+import Calculator from './Calculator';
+
+//import Competition from './Competition';
 
 ReactDOM.render(<App />, document.getElementById('root')
 );
